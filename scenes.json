@@ -1,0 +1,194 @@
+{
+  "about": "可変五感コンパスの場面帳 / Scene book. shelf: evidence（研究の場面）or life（人生の場面）. 人生の場面は読者限定で、ここには名前だけを置き、中身は life.enc.json に暗号化してある. levers に書かなかった感覚は ×1. *_en は英語表示用 (English text). キー: retro taste tex mbA mbB set sound vision ctx ortho mem",
+  "scenes": [
+    {
+      "id": "nose",
+      "shelf": "evidence",
+      "name": "鼻をつまむ",
+      "name_en": "Pinch your nose",
+      "ref": "Rozin 1982 ほか",
+      "ref_en": "Rozin 1982 and others",
+      "line": "なぜ鼻をつまむとジュースの味がわからなくなるのか",
+      "line_en": "Why does juice lose its taste when you pinch your nose?",
+      "levers": {
+        "retro": 0.12,
+        "ortho": 0.05
+      }
+    },
+    {
+      "id": "price",
+      "shelf": "evidence",
+      "name": "値段を告げる",
+      "name_en": "Reveal the price",
+      "ref": "Plassmann et al. 2008",
+      "line": "なぜ同じワインが、値段を聞いた後に美味しくなるのか",
+      "line_en": "Why does the same wine taste better once you hear its price?",
+      "levers": {
+        "ctx": 1.9
+      }
+    },
+    {
+      "id": "dark",
+      "shelf": "evidence",
+      "name": "照明を落とす",
+      "name_en": "Dim the lights",
+      "ref": "Morrot et al. 2001",
+      "line": "見えないと、味はどこへ行くのか",
+      "line_en": "When you cannot see, where does the taste go?",
+      "levers": {
+        "vision": 0.25
+      }
+    },
+    {
+      "id": "place",
+      "shelf": "evidence",
+      "name": "店で食べる",
+      "name_en": "Eat at a restaurant",
+      "ref": "Edwards et al. 2003",
+      "line": "なぜ同じ料理でも店で食べると美味しいのか",
+      "line_en": "Why does the same dish taste better at a restaurant?",
+      "levers": {
+        "set": 2.0,
+        "ctx": 1.2
+      }
+    },
+    {
+      "id": "thick",
+      "shelf": "evidence",
+      "name": "とろみをつける",
+      "name_en": "Thicken it",
+      "ref": "Hollowood et al. 2002",
+      "line": "とろみをつけると味が薄く感じるのはなぜか",
+      "line_en": "Why does thickening make the taste seem weaker?",
+      "levers": {
+        "tex": 1.8,
+        "taste": 0.8,
+        "retro": 0.85
+      }
+    },
+    {
+      "id": "win",
+      "shelf": "evidence",
+      "name": "勝った日",
+      "name_en": "The day your team won",
+      "ref": "Noel & Dando 2015",
+      "line": "勝った日のアイスはなぜ甘いのか",
+      "line_en": "Why is the ice cream sweeter on the day your team wins?",
+      "levers": {
+        "mbB": 2.0,
+        "mbA": 1.3
+      }
+    },
+    {
+      "id": "hungry",
+      "shelf": "evidence",
+      "name": "空腹",
+      "name_en": "Hunger",
+      "ref": "Cabanac 1971",
+      "line": "「空腹は最高のスパイス」は本当か",
+      "line_en": "Is hunger really the best spice?",
+      "levers": {
+        "mbB": 2.2
+      }
+    },
+    {
+      "id": "plane",
+      "shelf": "evidence",
+      "name": "機内の騒音",
+      "name_en": "Cabin noise",
+      "ref": "Yan & Dando 2015",
+      "line": "機内でトマトジュースが美味いのはなぜか",
+      "line_en": "Why does tomato juice taste so good on a plane?",
+      "levers": {
+        "sound": 2.3,
+        "taste": 0.85
+      }
+    },
+    {
+      "id": "swirl",
+      "shelf": "evidence",
+      "name": "グラスを回す",
+      "name_en": "Swirl the glass",
+      "ref": "Small et al. 2005",
+      "line": "グラスを回すと何が起きているのか",
+      "line_en": "What happens when you swirl the glass?",
+      "levers": {
+        "ortho": 2.4,
+        "retro": 1.1
+      }
+    },
+    {
+      "id": "aging",
+      "shelf": "evidence",
+      "name": "年を重ねる",
+      "name_en": "Growing older",
+      "ref": "Doty et al. 1984",
+      "line": "年を重ねると、なぜ味の好みが変わるのか",
+      "line_en": "Why do our tastes change as we grow older?",
+      "levers": {
+        "ortho": 0.55,
+        "retro": 0.6,
+        "taste": 0.7,
+        "ctx": 1.4,
+        "vision": 1.2,
+        "mem": 1.8
+      }
+    },
+    {
+      "id": "bbq",
+      "shelf": "life",
+      "name": "バーベキュー",
+      "name_en": "Barbecue",
+      "locked": true
+    },
+    {
+      "id": "ramen",
+      "shelf": "life",
+      "name": "締めのラーメン",
+      "name_en": "Late-night ramen",
+      "locked": true
+    },
+    {
+      "id": "date",
+      "shelf": "life",
+      "name": "初めてのデート",
+      "name_en": "A first date",
+      "locked": true
+    },
+    {
+      "id": "boss",
+      "shelf": "life",
+      "name": "上司のおごり",
+      "name_en": "Dinner on the boss",
+      "locked": true
+    },
+    {
+      "id": "hangover",
+      "shelf": "life",
+      "name": "二日酔いの味噌汁",
+      "name_en": "Miso soup after a hangover",
+      "locked": true
+    },
+    {
+      "id": "summit",
+      "shelf": "life",
+      "name": "山頂のカップ麺",
+      "name_en": "Cup noodles on the summit",
+      "locked": true
+    },
+    {
+      "id": "funeral",
+      "shelf": "life",
+      "name": "お葬式の精進落とし",
+      "name_en": "The meal after a funeral",
+      "locked": true
+    },
+    {
+      "id": "last",
+      "shelf": "life",
+      "name": "今際の際",
+      "name_en": "The final moment",
+      "locked": true
+    }
+  ]
+}
